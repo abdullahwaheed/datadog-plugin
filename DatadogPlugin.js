@@ -1,5 +1,6 @@
-import { datadogRum } from '@datadog/browser-rum';
-import { datadogLogs } from '@datadog/browser-logs';
+const { datadogRum } = require('@datadog/browser-rum');
+
+const { datadogLogs } = require('@datadog/browser-logs');
 
 class DatadogPlugin {
   constructor(options) {
